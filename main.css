@@ -34,7 +34,7 @@ body{
 }
 
 .main{
-    background-image: url("Banner-section.png");
+    background-image: url("bannerbaru.png");
 }
 
 hr.new5 {    
@@ -157,7 +157,7 @@ div.sticky {
 
 .table-row{
     width: 1195px;
-    margin: auto;
+    margin: auto !important;
 }
 
 .table-title{
@@ -521,6 +521,68 @@ animation-delay: calc(-4s * 2);
     }
 }
 
+.gabung{
+    height: 700px;
+    text-align: center;
+    background-image: url("bg.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: center;
+}
+
+.gabung a{
+    font-size: 18px;
+    font-weight: bold;
+    width: 249px;
+    height: 48px;
+    background-color: #F9A215;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.gabung a.hover, .gabung a.focus, .gabung a.actve{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.judul{
+    font-family: 'Poppins', sans-serif;
+    position: center;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    color: #1E1E1E;
+    height: 53;
+    width: 706;
+}
+
+.underline{
+    text-decoration: underline;
+    text-decoration-color: #F9A215;
+}
+
+.subjudul{
+    font-family: 'Poppins', sans-serif;
+    position: center;
+    font-style: normal;
+    text-align: center;
+    font-size: 20px;
+    color: #1E1E1E;
+    margin-top: 28px;
+}
+
 .reveal{
     position: relative;
     transform: translateY(150px);
@@ -531,4 +593,9 @@ animation-delay: calc(-4s * 2);
 .reveal.active{
     transform: translateY(0px);
     opacity: 1;
+}
+
+.link-lengkap{
+    text-decoration: none;
+    color: #F9A215;
 }
