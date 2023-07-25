@@ -112,12 +112,10 @@ div.sticky {
     font-size: 28px;
 }
 
-
-
 .tabel-2{
-    width: 1240px;
-    margin: auto;
-    height: 1550px;
+    width: auto;
+    height: auto;
+    margin: 30px;
     flex-shrink: 0;
     border-radius: 15px;
     background-color: #fff;
@@ -135,18 +133,19 @@ div.sticky {
 }
 
 .land-par2 h1, .land-par2 p{
-    width: 1028px;
-    margin: auto;
+    width: auto;
+    margin: 20px;
 }
 
 .main4{
-    width: 1300px;
-    margin: auto;
+    width: auto;
+    margin: 50px;
 }
 
 .par2-con{
-    width: 1240px;
-    margin: auto;
+    width: auto;
+    overflow: auto;
+    margin: 20px;
     height: 800px;
     flex-shrink: 0;
     border-radius: 15px;
@@ -156,8 +155,8 @@ div.sticky {
 }
 
 .table-row{
-    width: 1195px;
-    margin: auto !important;
+    width: auto;
+    margin: 20px;
 }
 
 .table-title{
@@ -182,18 +181,18 @@ div.sticky {
 }
 
 .main5{
-    width: 1300px !important;
-    margin: auto;
+    width: auto !important;
+    margin: 20px;
 }
 
 .main6{
-    width: 1300px !important;
-    margin: auto;
+    width: auto !important;
+    margin: 20px;
 }
 
 .main7{
-    width: 1300px !important;
-    margin: auto;
+    width: auto !important;
+    margin: 20px;
 }
 
 
@@ -364,14 +363,14 @@ div.sticky {
 }
 
 .par6fin{
-    width: 1240px;
-    margin: auto;
+    width: auto;
+    margin: 20px;
     margin-top: 50px;
 }
 
 .par6fin p{
-    width: 1204px;
-    margin: auto;
+    width: auto;
+    margin: 20px;
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -399,11 +398,11 @@ div.sticky {
 }
 
 .par10fin{
-    width: 1240px;
+    width: auto;
     height: 611px;
     flex-shrink: 0;
     background: #FFF;
-    margin: auto;
+    margin: 20px;
     padding-top: 80px;
 }
 
