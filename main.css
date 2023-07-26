@@ -143,9 +143,10 @@ div.sticky {
 }
 
 .par2-con{
-    width: auto;
-    overflow: auto;
-    margin: 20px;
+    width: 90%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin: auto;
     height: 800px;
     flex-shrink: 0;
     border-radius: 15px;
@@ -156,6 +157,11 @@ div.sticky {
 
 .table-row{
     width: auto;
+    margin: 20px;
+}
+
+.table-row2{
+    width: 1200px;
     margin: 20px;
 }
 
@@ -431,7 +437,7 @@ div.sticky {
 
 .par10fin-carousel {
     position: relative;
-    width: max(50%,349px) !important;
+    width: max(50%, 349px) !important;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -520,9 +526,11 @@ animation-delay: calc(-4s * 2);
 }
 
 .gabung{
-    height: 700px;
+    width: auto;
+    height: auto;
+    min-height: 500px;
     text-align: center;
-    background-image: url("bg.svg");
+    background-image: url("bg.png");
     background-repeat: no-repeat;
     background-size: auto;
     background-position-x: center;
