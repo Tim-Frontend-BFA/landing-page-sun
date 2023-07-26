@@ -182,17 +182,17 @@ div.sticky {
 
 .main5{
     width: auto !important;
-    margin: 20px;
+    margin: 50px;
 }
 
 .main6{
     width: auto !important;
-    margin: 20px;
+    margin: 50px !important;
 }
 
 .main7{
     width: auto !important;
-    margin: 20px;
+    margin: 50px !important;
 }
 
 
@@ -364,7 +364,7 @@ div.sticky {
 
 .par6fin{
     width: auto;
-    margin: 20px;
+    margin: 50px;
     margin-top: 50px;
 }
 
@@ -402,7 +402,7 @@ div.sticky {
     height: 611px;
     flex-shrink: 0;
     background: #FFF;
-    margin: 20px;
+    margin: 50px;
     padding-top: 80px;
 }
 
@@ -422,17 +422,16 @@ div.sticky {
 }
 
 .par10fin-img{
-    width: 336px !important;
-    max-width: 336px !important;
+    width: max(50%,349px) !important;
     height: 376px;
     padding: 0px;
     padding-top: 50px;
+    text-align: center;
 }
 
 .par10fin-carousel {
     position: relative;
-    width: 100% !important;
-    max-width: 500px !important;
+    width: max(50%,349px) !important;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -557,14 +556,11 @@ animation-delay: calc(-4s * 2);
 
 .judul{
     font-family: 'Poppins', sans-serif;
-    position: center;
     font-style: normal;
     font-weight: bold;
     text-align: center;
     font-size: 40px;
     color: #1E1E1E;
-    height: 53;
-    width: 706;
 }
 
 .underline{
