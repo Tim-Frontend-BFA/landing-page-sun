@@ -189,17 +189,17 @@ div.sticky {
 
 .main5{
     width: auto !important;
-    margin: 4vw;
+    padding: 5rem 0.5rem;
 }
 
 .main6{
     width: auto !important;
-    margin: 3.5vw !important;
+    padding: 5rem 0.5rem;
 }
 
 .main7{
     width: auto !important;
-    margin: 3.5vw !important;
+    padding: 5rem 0.5rem;
 }
 
 
@@ -409,14 +409,14 @@ div.sticky {
     height: auto;
     flex-shrink: 0;
     background: #FFF;
-    margin: 4vw;
+    padding: 5rem 0.5rem;
     padding-top: 80px;
 }
 
 .par10fin-text{
     width: 729px;
     padding: 0px;
-    font-size: max(3vw,30px);
+    font-size: max(3vw,28px);
     font-style: normal;
     font-weight: 700;
     line-height: 133.4%; /* 53.36px */
