@@ -161,7 +161,8 @@ div.sticky {
 }
 
 .table-row2{
-    width: 1200px;
+    width: auto;
+    min-width: 1200px;
     margin: 20px;
 }
 
@@ -405,17 +406,17 @@ div.sticky {
 
 .par10fin{
     width: auto;
-    height: 611px;
+    height: auto;
     flex-shrink: 0;
     background: #FFF;
-    margin: 50px;
+    margin: 4vw;
     padding-top: 80px;
 }
 
 .par10fin-text{
     width: 729px;
     padding: 0px;
-    font-size: 40px;
+    font-size: max(3vw,30px);
     font-style: normal;
     font-weight: 700;
     line-height: 133.4%; /* 53.36px */
@@ -433,6 +434,10 @@ div.sticky {
     padding: 0px;
     padding-top: 50px;
     text-align: center;
+}
+
+.carousel5{
+    width: 326px !important;
 }
 
 .par10fin-carousel {
@@ -530,6 +535,7 @@ animation-delay: calc(-4s * 2);
     height: auto;
     min-height: 500px;
     text-align: center;
+    margin-top: 80px;
     background-image: url("bg.png");
     background-repeat: no-repeat;
     background-size: auto;
@@ -601,4 +607,27 @@ animation-delay: calc(-4s * 2);
 .link-lengkap{
     text-decoration: none;
     color: #F9A215;
+}
+
+#carouselWrapper {
+    position: relative;
+    overflow: hidden;
+    padding: 0px;
+}
+#vercarousel {
+    position: absolute;
+    visibility: hidden;
+}
+
+#vercarousel .card{
+    background-color: #F9A215;
+}
+
+.buttons{
+    
+}
+
+.each-button{
+    border: none;
+    background: 0 0;
 }
