@@ -623,8 +623,8 @@ animation-delay: calc(-4s * 2);
     background-color: #F9A215;
 }
 
-.buttons{
-    
+.table-title-style{
+    font-size: max(2.5vw, 28px);
 }
 
 .each-button{
