@@ -51,6 +51,11 @@
     .slick-current {
       opacity: 1;
     }
+
+    .owl-item{
+        display: flex;
+        justify-content: center;
+    }
     </style>
 </head>
   <body>
@@ -340,7 +345,7 @@
                     <br><br><br><br>
                     <p style="font-size: 40px; text-align: center; margin-bottom: 80px;"><b>Kondisi <span style="border-bottom: solid 8px #F9A215;">Jerman</span> Saat Ini</b></p>
                 </div>
-                <div class="carousel2 owl-carousel owl-theme">
+                <div class="carousel2 owl-carousel owl-theme" style="margin: auto;">
                     <div class="card" style="width: 22.5rem; height: 18rem;">
                         <div class="card-body">
                           <img src="pic1.png" alt="" style="width: 19rem; margin: auto; margin-bottom: 25px; margin-top: 15px;">
@@ -770,7 +775,7 @@
                 navText: ["<i class='fas fa-chevron-left'></i>","<i class='fas fa-chevron-right'></i>"],
                 slideBy: 1,
                 items:1,
-                margin: 0,
+                margin: 20,
                 autoplay: false,
                 loop: true,
                 center: true,
@@ -809,6 +814,7 @@
                 slideBy: 1,
                 items:1,
                 margin:0,
+                center: true,
                 autoplay: false,
                 loop: true,
                 responsive:{
@@ -847,6 +853,7 @@
                 slideBy: 1,
                 items:1,
                 margin:0,
+                center: true,
                 autoplay: false,
                 loop: true,
                 responsive:{
