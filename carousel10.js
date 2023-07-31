@@ -2,7 +2,7 @@ var Carousel = {
     width: 368,     // Images are forced into a width of this many pixels.
     numVisible: 1,  // The number of images visible at once.
     duration: 600,  // Animation duration in milliseconds.
-    padding: 2      // Vertical padding around each image, in pixels.
+    padding: 10      // Vertical padding around each image, in pixels.
 };
 
 function rotateForward() {
